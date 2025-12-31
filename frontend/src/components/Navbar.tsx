@@ -33,13 +33,13 @@ export default function Navbar() {
 
           <div className="hidden items-center gap-3 md:flex">
             <Link
-              href="/sign-in"
+              href="/signin"
               className="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-900 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-100 dark:hover:bg-zinc-900"
             >
               Sign in
             </Link>
             <Link
-              href="/sign-up"
+              href="/signup"
               className="inline-flex items-center rounded-md bg-blue-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow hover:bg-blue-700"
             >
               Sign up
@@ -91,13 +91,13 @@ export default function Navbar() {
               </Link>
               <div className="flex items-center gap-3 pt-2">
                 <Link
-                  href="/sign-in"
+                  href="/signin"
                   className="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-900 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-100 dark:hover:bg-zinc-900"
                 >
                   Sign in
                 </Link>
                 <Link
-                  href="/sign-up"
+                  href="/signup"
                   className="inline-flex items-center rounded-md bg-blue-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow hover:bg-blue-700"
                 >
                   Sign up
